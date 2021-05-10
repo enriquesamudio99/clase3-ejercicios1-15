@@ -122,6 +122,26 @@ namespace ejerciciosParteUno
             //}
             // Fin Ejercicio 9
 
+            // 10-) Ingresar dos números e intercambiarlos.
+            //Console.WriteLine("Ingrese un primer numero: ");
+            //int diezNumeroUno = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Ingrese un segundo numero: ");
+            //int diezNumeroDos = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Numeros ingresados: N° 1: {0}, N° 2: {1}", diezNumeroUno, diezNumeroDos);
+            //Console.WriteLine("Numeros intercambiados");
+            //int diezAux = diezNumeroUno;
+            //diezNumeroUno = diezNumeroDos;
+            //diezNumeroDos = diezAux;
+            //Console.WriteLine("El N° 1 es ahora el: {0}, y el N° 2 es ahora el: {1}", diezNumeroUno, diezNumeroDos);
+            // Fin Ejercicio 10
+
+            // 11-) Ingresar un número y mostrar su cuadrado y cubo.
+            //Console.WriteLine("Ingrese un numero: ");
+            //int onceNumeroIngresado = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("El {0} elevado al cuadrado es {1}", onceNumeroIngresado, Math.Pow(onceNumeroIngresado, 2));
+            //Console.WriteLine("El {0} elevado al cubo es {1}", onceNumeroIngresado, Math.Pow(onceNumeroIngresado, 3));
+            // Fin Ejercicio 11
+
 
         }
     }
