@@ -43,6 +43,22 @@ namespace ejerciciosParteUno
             //    Console.WriteLine("Numero: {0}", i);
             //}
             // Fin Ejercicio 4
+
+            // 5-) Mostrar los múltiplos de 3 y de 2 entre el 0 y 100
+            //for (int i = 0; i <= 100; i++)
+            //{
+            //    if (i % 3 == 0 && i % 2 == 0)
+            //    {
+            //        Console.WriteLine("{0} es múltiplo de 3 y de 2", i);
+            //    } else if(i % 3 == 0)
+            //    {
+            //        Console.WriteLine("{0} es múltiplo de 3", i);
+            //    } else if(i % 2 == 0)
+            //    {
+            //        Console.WriteLine("{0} es múltiplo de 2", i);
+            //    }
+            //}
+            // Fin Ejercicio 5
         }
     }
 }
