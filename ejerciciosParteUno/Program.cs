@@ -178,7 +178,27 @@ namespace ejerciciosParteUno
             //Console.WriteLine("El residuo entre ambos numeros es {0}", (treceNumeroUno % treceNumeroDos));
             // Fin Ejercicio 13 
 
-            
+            // 14-) Mostrar las tablas de multiplicar del 1 al 10. Se debe ver de esta manera: 1 x 1 = 1.
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("----------------------------------");
+                Console.WriteLine("Tabla del {0}", i);
+                for (int j = 1; j <= 10; j++)
+                {
+                    Console.WriteLine("{0} x {1} = {2}", i, j, (i * j));
+                }
+            }
+            // Fin Ejercicio 14 
+
+            // 15-) Mostrar la tabla de multiplicar de un número ingresado por el usuario.
+            Console.WriteLine("Ingrese el numero del que desea ver la tabla de multiplicar: ");
+            int quinceNumeroIngresado = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Tabla del {0}", quinceNumeroIngresado);
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("{0} x {1} = {2}", quinceNumeroIngresado, i, (quinceNumeroIngresado * i));
+            }
+            // Fin Ejercicio 15 
         }
     }
 }
