@@ -12,9 +12,12 @@ namespace ejerciciosParteUno
             Console.WriteLine("====================================================================");
             for (int i = 0; i <= 100; i++)
             {
-                if (i % 2 != 0)
+                if (i != 0)
                 {
-                    Console.WriteLine("{0} es impar", i);
+                    if (i % 2 != 0)
+                    {
+                        Console.WriteLine("{0} es impar", i);
+                    }
                 }
             }
             // Fin Ejercicio 1
@@ -27,10 +30,13 @@ namespace ejerciciosParteUno
             Console.WriteLine("=================================================================");
             for (int i = 0; i <= 100; i++)
             {
-                if (i % 2 == 0)
+                if (i != 0)
                 {
-                    Console.WriteLine("{0} es par", i);
-                }
+                    if (i % 2 == 0)
+                    {
+                        Console.WriteLine("{0} es par", i);
+                    }
+                }               
             }
             // Fin Ejercicio 2
             Console.Write("Siguiente ejercicio");
@@ -66,17 +72,20 @@ namespace ejerciciosParteUno
             Console.WriteLine("=======================================================================");
             for (int i = 0; i <= 100; i++)
             {
-                if (i % 3 == 0 && i % 2 == 0)
+                if (i != 0)
                 {
-                    Console.WriteLine("{0} es múltiplo de 3 y de 2", i);
-                }
-                else if (i % 3 == 0)
-                {
-                    Console.WriteLine("{0} es múltiplo de 3", i);
-                }
-                else if (i % 2 == 0)
-                {
-                    Console.WriteLine("{0} es múltiplo de 2", i);
+                    if (i % 3 == 0 && i % 2 == 0)
+                    {
+                        Console.WriteLine("{0} es múltiplo de 3 y de 2", i);
+                    }
+                    else if (i % 3 == 0)
+                    {
+                        Console.WriteLine("{0} es múltiplo de 3", i);
+                    }
+                    else if (i % 2 == 0)
+                    {
+                        Console.WriteLine("{0} es múltiplo de 2", i);
+                    }
                 }
             }
             // Fin Ejercicio 5
@@ -125,7 +134,7 @@ namespace ejerciciosParteUno
                 if (i % 3 == 0)
                 {
                     ochoMultiplosTres++;
-                }
+                }              
             }
             Console.WriteLine("Se conto {0} múltiplo/s de 3 hasta el número {1}", ochoMultiplosTres, ochoNumeroIngresado);
             // Fin Ejercicio 8
