@@ -70,6 +70,29 @@ namespace ejerciciosParteUno
             //}
             //Console.WriteLine("La suma de los números que lo anteceden es {0}", seisSumaAnteriores);
             // Fin Ejercicio 6
+
+            // 7-) Mostrar los números del 1 hasta el número ingresado.
+            //Console.WriteLine("Ingrese un numero: ");
+            //int sieteNumeroIngresado = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <= sieteNumeroIngresado; i++)
+            //{
+            //    Console.WriteLine("Número: {0}", i);
+            //}
+            // Fin Ejercicio 7
+
+            // 8-) Contar los múltiplos de 3 desde la unidad hasta un número que ingresamos
+            //Console.WriteLine("Ingrese un numero: ");
+            //int ochoNumeroIngresado = Convert.ToInt32(Console.ReadLine());
+            //int ochoMultiplosTres = 0;
+            //for (int i = 1; i <= ochoNumeroIngresado; i++)
+            //{
+            //    if (i % 3 == 0)
+            //    {
+            //        ochoMultiplosTres++;
+            //    }
+            //}
+            //Console.WriteLine("Se conto {0} múltiplo/s de 3 hasta el número {1}", ochoMultiplosTres, ochoNumeroIngresado);
+            // Fin Ejercicio 8
         }
     }
 }
