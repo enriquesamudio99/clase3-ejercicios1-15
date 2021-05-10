@@ -142,7 +142,43 @@ namespace ejerciciosParteUno
             //Console.WriteLine("El {0} elevado al cubo es {1}", onceNumeroIngresado, Math.Pow(onceNumeroIngresado, 3));
             // Fin Ejercicio 11
 
+            // 12-) Ingresar dos números e indicar cuál es mayor y menor.
+            //Console.WriteLine("Ingrese un primer numero: ");
+            //int doceNumeroUno = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Ingrese un segundo numero: ");
+            //int doceNumeroDos = Convert.ToInt32(Console.ReadLine());
+            //if (doceNumeroUno == doceNumeroDos)
+            //{
+            //    Console.WriteLine("Son iguales");
+            //} else if(doceNumeroUno > doceNumeroDos)
+            //{
+            //    Console.WriteLine("El numero uno es mayor");
+            //} else
+            //{
+            //    Console.WriteLine("El numero dos es mayor");
+            //}
+            // Fin Ejercicio 12
 
+            // 13-) Ingresar dos números y mostrar la suma, la resta, la multiplicación, la división y el residuo entre ambos.
+            // Para la división, se deberá determinar cuál es el mayor.
+            //Console.WriteLine("Ingrese un primer numero: ");
+            //int treceNumeroUno = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Ingrese un segundo numero: ");
+            //int treceNumeroDos = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("La suma de ambos numeros es {0}", (treceNumeroUno + treceNumeroDos));
+            //Console.WriteLine("La resta de ambos numeros es {0}", (treceNumeroUno - treceNumeroDos));
+            //Console.WriteLine("La multiplicación de ambos numeros es {0}", (treceNumeroUno * treceNumeroDos));
+            //if (treceNumeroDos > treceNumeroUno)
+            //{
+            //    Console.WriteLine("(El número mayor es el dividendo) La divisíon de ambos numeros es {0}", (treceNumeroDos / treceNumeroUno));
+            //} else
+            //{
+            //    Console.WriteLine("(El número mayor es el dividendo) La divisíon de ambos numeros es {0}", (treceNumeroUno / treceNumeroDos));
+            //}
+            //Console.WriteLine("El residuo entre ambos numeros es {0}", (treceNumeroUno % treceNumeroDos));
+            // Fin Ejercicio 13 
+
+            
         }
     }
 }
