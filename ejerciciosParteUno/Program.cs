@@ -61,14 +61,14 @@ namespace ejerciciosParteUno
             // Fin Ejercicio 5
 
             // 6-) Ingresar un número y mostrar la suma de los números que lo anteceden. 
-            Console.WriteLine("Ingrese un numero: ");
-            int numeroIngresado = Convert.ToInt32(Console.ReadLine());
-            int sumaAnteriores = 0;
-            for (int i = numeroIngresado - 1; i >= 1; i--)
-            {
-                sumaAnteriores += i;
-            }
-            Console.WriteLine("La suma de los números que lo anteceden es {0}", sumaAnteriores);
+            //Console.WriteLine("Ingrese un numero: ");
+            //int seisNumeroIngresado = Convert.ToInt32(Console.ReadLine());
+            //int seisSumaAnteriores = 0;
+            //for (int i = seisNumeroIngresado - 1; i >= 1; i--)
+            //{
+            //    seisSumaAnteriores += i;
+            //}
+            //Console.WriteLine("La suma de los números que lo anteceden es {0}", seisSumaAnteriores);
             // Fin Ejercicio 6
         }
     }
