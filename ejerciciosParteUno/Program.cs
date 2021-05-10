@@ -93,6 +93,36 @@ namespace ejerciciosParteUno
             //}
             //Console.WriteLine("Se conto {0} múltiplo/s de 3 hasta el número {1}", ochoMultiplosTres, ochoNumeroIngresado);
             // Fin Ejercicio 8
+
+            // 9-) Mostrar los números primos entre el 0 y 100.
+            //for (int num = 0; num <= 100; num++)
+            //{
+            //    if (num > 1)
+            //    {
+            //        int contador = 0;
+            //        int i = 2;
+            //        int resto = 0;
+
+            //        while ((i < num) && (contador == 0))
+            //        {
+            //            resto = num % i;
+            //            if (resto == 0)
+            //            {
+            //                contador++;
+            //            }
+            //            i++;
+            //        }
+
+            //        if (contador == 0)
+            //        {
+            //            Console.WriteLine("El {0} es un número primo", i);
+            //        }
+
+            //    }
+            //}
+            // Fin Ejercicio 9
+
+
         }
     }
 }
